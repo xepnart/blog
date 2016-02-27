@@ -1,0 +1,14 @@
+<h1>Pages#welcome Nart</h1>
+<p>Find me in app/views/pages/welcome.html.erb</p>
+<p><%= @time %></p>
+
+
+<p>Our dessert recipes are shared with love by the world top <%= @chefs.size %> </p>
+<ul>
+<% @chefs.each do |chef| %>
+  <li><%= chef %></li>
+<% end %>
+</ul>
+
+
+    
