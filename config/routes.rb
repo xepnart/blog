@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
   
+  resources :posts
+  resources :ports
   #get 'pages/welcome' => 'pages#welcome'
   get 'about' => 'pages#about'
 
